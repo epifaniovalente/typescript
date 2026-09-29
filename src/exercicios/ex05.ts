@@ -1,3 +1,5 @@
+// ========= Discriminated Unions ==================
+
 type forma =
   | { tipo: 'circulo'; raio: number }
   | { tipo: 'retangulo'; largura: number; altura: number }
